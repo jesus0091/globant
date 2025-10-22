@@ -1,7 +1,7 @@
 # React + TypeScript + Vite
 
 ## Spanish
-- Stack: Usé React con TypeScript y CSS plano. Elegí simplicidad y claridad frente a frameworks como Tailwind o Material UI.
+- Stack: Usé React con TypeScript y Tailwind. Elegí Tailwind por la rapidez del maquetado aunque ensucia un poco el JSX.
 - Ruteo: Implementé react-router-dom, ideal para Vite y proyectos pequeños.
 - Consumo de API: Usé fetch con useEffect y useState. Es suficiente en esta escala, aunque en producción optaría por React Query.
 - Detalle de producto: Decidí hacer un refetch en /products/:id. Esto asegura data actualizada aunque entres por URL directa, aunque implica más llamadas a la API.
